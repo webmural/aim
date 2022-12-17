@@ -1,31 +1,32 @@
 ::selection {
-  background: darkviolet;
-  color: gold;
+  background: peachpuff;
+  color: indigo;
 }
 
 :root {
-  color: #200222;
-  background: skyblue;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    background: deepskyblue;
-  }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: #33113d;
-  }
+  color: seashell;
+  background: indigo;
 }
 
 :any-link {
-  color: #50a;
-  text-decoration-style: dotted;
+  color: powderblue;
+  background: indigo;
+  text-shadow:
+    0 1pt 0 violet,
+    0 2pt 0 orange,
+    0 3pt 0 yellow;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+:focus {
+  color: indigo;
+  background: aquamarine;
 }
 
 mark {
-  color: #11111d;
-  background: magenta;
+  color: indigo;
+  background: whitesmoke;
 }
